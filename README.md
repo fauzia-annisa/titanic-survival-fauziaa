@@ -7,7 +7,7 @@ Built and trained 100% on Google Colab.
 `Python` `Pandas` `Scikit-learn` `Matplotlib` `Seaborn` `Pickle` `Google Colab`
 
 ### 📊 Model Performance
-- **Algorithm**: Logistic Regression
+- **Algorithm**: Random Forest
 - **Accuracy**:78.77%
 - **Features**: Pclass, Sex, Age, Fare, SibSp, Parch
 - **Dataset**: Titanic Train Dataset
