@@ -1,25 +1,24 @@
-# 🎈 Blank app template
+# 🚢 Titanic Survival Prediction
 
-A simple Streamlit app template for you to modify!
+Predict passenger survival on the Titanic using Logistic Regression and other ML models.  
+Built and trained 100% on Google Colab.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+### 🛠️ Tech Stack
+`Python` `Pandas` `Scikit-learn` `Matplotlib` `Seaborn` `Pickle` `Google Colab`
 
-### How to run it on your own machine
+### 📊 Model Performance
+- **Algorithm**: Logistic Regression
+- **Accuracy**: [Add your accuracy here]%
+- **Features**: Pclass, Sex, Age, Fare, SibSp, Parch
+- **Dataset**: Titanic Train Dataset
 
-Prerequisite: install `uv` if you don't already have it.
+### 📈 Results
+![Model Results](Screenshot_20260929_173146_Chrome.jpg)
 
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+### 🚀 How to Run
+1. Open `Titanic_Survival_Predictor.ipynb` in Google Colab
+2. Upload `data_clean.csv` or original Titanic dataset
+3. Run all cells to train and evaluate the model
 
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+### 💡 Key Learning
+Data cleaning, feature engineering, handling missing values, model training, and saving model with pickle.
