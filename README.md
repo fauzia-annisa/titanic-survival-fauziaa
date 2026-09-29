@@ -8,7 +8,7 @@ Built and trained 100% on Google Colab.
 
 ### 📊 Model Performance
 - **Algorithm**: Logistic Regression
-- **Accuracy**: [Add your accuracy here]%
+- **Accuracy**:78.77%
 - **Features**: Pclass, Sex, Age, Fare, SibSp, Parch
 - **Dataset**: Titanic Train Dataset
 
